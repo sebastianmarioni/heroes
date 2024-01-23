@@ -1,0 +1,14 @@
+@if (hero) {
+    <div> 
+      <h2> {{hero.name  }} DETAILS</h2>
+      <div>
+        ID: {{hero.id}}
+      </div>
+      <div>
+        <label for="hero-name">Hero: </label>
+        <input id="hero-name" placeholder="name" [(ngModel)]="hero.name" >
+      </div>
+    </div>
+  }
+  
+  
